@@ -1,0 +1,40 @@
+<!DOCTYPE HTMl>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" inital-scale="1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        html, body {
+            margin: 0;
+            height: 100vh;
+        }
+        body {
+            display: flex;
+            background: rgb(95,103,115);
+            background: radial-gradient(circle, rgba(95,103,115,1) 0%, rgba(47,54,64,1) 100%);
+        }
+        main {
+            margin: auto;
+            min-width: 20rem;
+            border-radius: 0.2rem;
+            border: 1px solid rgb(95,103,115);
+            background-color: #ECF0F1;
+            color: #2A2E33;
+            display: flex;
+        }
+        main > div {
+            margin: 4em auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <h1 id="quote"></h1>
+        </div>
+    </main>
+</body>
+<script src="background.js"></script>
+</html>

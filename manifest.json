@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Oblique Strategies Extension",
+    "version": "0.0.1",
+    "description": "Shows randomized cards from Oblique Strategies by Brian Eno",
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
